@@ -1,257 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-      body {
-        font-family: "Roboto Mono", monospace;
-      }
-    </style>
-    <!-- Navbar Start -->
-    <nav
-      id="navbar-example2"
-      class="navbar bg-body-tertiary px-3 mb-3 navbar sticky-top bg-body-tertiary"
-    >
-      <a class="navbar-brand" href="/">Home</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading3">Certificate</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-            href="/Portfolio/"
-            role="button"
-            aria-expanded="false"
-            >Portfolio</a
-          >
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="#scrollspyHeading4"
-                >Portfolio-Photografy</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#scrollspyHeading5"
-                >Portfolio-Design</a
-              >
-            </li>
-            <li><hr class="dropdown-divider" /></li>
-            <li>
-              <a class="dropdown-item" href="#scrollspyHeading6"
-                >Portfolio-3D</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading7">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div
-      data-bs-spy="scroll"
-      data-bs-target="#navbar-example2"
-      data-bs-root-margin="0px 0px -40%"
-      data-bs-smooth-scroll="true"
-      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
-      tabindex="0"
-    >
-      <!-- Navbar End -->
-      <!-- Page 1 -->
-      <h4 id="scrollspyHeading1"></h4>
-      <div
-        class="container-fluid text-center align-items-center"
-        style="height: 100vh"
-      >
-        <div class="row align-items-center container-fluid" style="height: 80%">
-          <div class="col-lg-7 col-2 border ms-5" style="text-align: left">
-            <h1>I,am All</h1>
-            <h5>
-              I create innovative web and visual solutions. <br> As a Junior Front
-              End Engineer skilled in web development, <br> I combine technical
-              expertise with experience <br> in 3D, Design, and Video Editing.
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+    body {
+      font-family: "Roboto Mono", monospace;
+    }
+  </style>
+  <!-- Navbar Start -->
+  <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 navbar sticky-top bg-body-tertiary">
+    <a class="navbar-brand" href="/">Home</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">Certificate</a> <i class="fa-regular fa-camera"></i>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/Portfolio/" role="button"
+          aria-expanded="false">Portfolio</a>
+        <ul class="dropdown-menu">
+          <li>
+           <i class="fa-regular fa-camera"></i>
+            <a class="dropdown-item" href="#scrollspyHeading4">Portfolio-Photografy</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#scrollspyHeading5">Portfolio-Design</a>
+          </li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li>
+            <a class="dropdown-item" href="#scrollspyHeading6">Portfolio-3D</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading7">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+    <!-- Navbar End -->
+    <!-- Page 1 -->
+    <h4 id="scrollspyHeading1"></h4>
+    <div class="container-fluid text-center align-items-center" style="height: 100vh">
+      <div class="row align-items-center container-fluid" style="height: 80%">
+        <div class="col-lg-7 col-2 border ms-5" style="text-align: left">
+          <h1>I,am All</h1>
+          <h5>
+            I create innovative web and visual solutions. <br> As a Junior Front
+            End Engineer skilled in web development, <br> I combine technical
+            expertise with experience <br> in 3D, Design, and Video Editing.
             </h4>
-          </div>
-          <div class="col-3 border mx-auto p-2" style="height: auto">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKEJmysaq0MubY7ta3VEzh7r-Q1a98yUvjg&s"
-              class="img-fluid"
-              alt="..."
-            />
-          </div>
-          
         </div>
+        <div class="col-3 border mx-auto p-2" style="height: auto">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKEJmysaq0MubY7ta3VEzh7r-Q1a98yUvjg&s"
+            class="img-fluid" alt="" />
+        </div>
+
       </div>
-      <!-- Page 1 -->
-      <!-- Page 2 -->
-      <h4 id="scrollspyHeading2">Resume</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
+    </div>
+    <!-- Page 1 -->
+    <!-- Page 2 -->
+    <h4 id="scrollspyHeading2">Resume</h4>
+    <div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh">
+      <div class="row align-items-start">
         <div class="container text-center d-flex">
-            <div class="row">
-              <div class="col-6 col-sm-6">
-                <div
-                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
-                  style="width: 18rem"
-                >
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Code</h5>
-                    <p class="card-text">
-                      5+ Finished Project <br />
-                      (Front End, Back End, And Game Dev)
-                    </p>
-                  </div>
+          <div class="row">
+            <div class="col-6 col-sm-6">
+              <div class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded-5" style="width: 18rem">
+                <div class="card-body">
+                  <h5 class="card-title">Code</h5>
+                  <p class="card-text">
+                    5+ Finished Project <br />
+                    (Front End, Back End, And Game Dev)
+                  </p>
                 </div>
               </div>
-              <div class="col-6 col-sm-6">
-                <div
-                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
-                  style="width: 18rem"
-                >
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Video Editing</h5>
-                    <p class="card-text">
-                      20+ Finished Project <br />
-                      (Premier Pro, Davinci Resolve, Capcut)
-                    </p>
-                  </div>
+            </div>
+            <div class="col-6 col-sm-6">
+              <div class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded-5" style="width: 18rem">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Video Editing</h5>
+                  <p class="card-text">
+                    20+ Finished Project <br />
+                    (Premier Pro, Davinci Resolve, Capcut)
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <!-- Force next columns to break to new line -->
-              <div class="w-100"></div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
 
-              <div class="col-6 col-sm-6s">
-                <div
-                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
-                  style="width: 18rem"
-                >
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Photografy & Videografy</h5>
-                    <p class="card-text">
-                      15+ Finished Project <br />
-                      (Wedding, Traditional Event)
-                    </p>
-                  </div>
+            <div class="col-6 col-sm-6s">
+              <div class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded-5" style="width: 18rem">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <i class="fa-regular fa-camera"></i>
+                  <h5 class="card-title">Photografy & Videografy</h5>
+                  <p class="card-text">
+                    15+ Finished Project <br />
+                    (Wedding, Traditional Event)
+                  </p>
                 </div>
               </div>
-              <div class="col-6 col-sm-6">
-                <div
-                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
-                  style="width: 18rem"
-                >
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">3D & VFX</h5>
-                    <p class="card-text">
-                      40+ Finished Project <br />
-                      (Blender, Cinema4D, Sketchup, After Effect)
-                    </p>
-                  </div>
+            </div>
+            <div class="col-6 col-sm-6">
+              <div class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded-5" style="width: 18rem">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">3D & VFX</h5>
+                  <p class="card-text">
+                    40+ Finished Project <br />
+                    (Blender, Cinema4D, Sketchup, After Effect)
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Page 2 -->
-      <!-- Page 3 -->
-      <h4 id="scrollspyHeading3">Certificate</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
-        </div>
-      </div>
-      <!-- Page 3 -->
-      <!-- Page 4 -->
-      <h4 id="scrollspyHeading4">Portfolio-Photografy</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
-        </div>
-      </div>
-      <!-- Page 4 -->
-      <!-- Page 5 -->
-      <h4 id="scrollspyHeading5">Portfolio-Design</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
-        </div>
-      </div>
-      <!-- Page 5 -->
-      <!-- Page 6 -->
-      <h4 id="scrollspyHeading6">Portfolio-3D</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
-        </div>
-      </div>
-      <!-- Page 6 -->
-      <!-- Page 7 -->
-      <h4 id="scrollspyHeading7">Contact</h4>
-      <div
-        class="container-fluid text-center bg-black text-light"
-        style="height: 100vh"
-      >
-        <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
-        </div>
+    </div>
+    <!-- Page 2 -->
+    <!-- Page 3 -->
+    <h4 id="scrollspyHeading3">Certificate</h4>
+    <div class="container-fluid text-center bg-black text-light" style="height: 100vh">
+      <div class="row align-items-start">
+        <div class="col-8">About</div>
+        <div class="col-4">Foto</div>
       </div>
     </div>
+    <!-- Page 3 -->
+    <!-- Page 4 -->
+    <h4 id="scrollspyHeading4">Portfolio-Photografy</h4>
+    <div class="container-fluid text-center bg-black text-light" style="height: 100vh">
+      <div class="row align-items-start">
+        <div class="col-8">About</div>
+        <div class="col-4">Foto</div>
+      </div>
+    </div>
+    <!-- Page 4 -->
+    <!-- Page 5 -->
+    <h4 id="scrollspyHeading5">Portfolio-Design</h4>
+    <div class="container-fluid text-center bg-black text-light" style="height: 100vh">
+      <div class="row align-items-start">
+        <div class="col-8">About</div>
+        <div class="col-4">Foto</div>
+      </div>
+    </div>
+    <!-- Page 5 -->
+    <!-- Page 6 -->
+    <h4 id="scrollspyHeading6">Portfolio-3D</h4>
+    <div class="container-fluid text-center bg-black text-light" style="height: 100vh">
+      <div class="row align-items-start">
+        <div class="col-8">About</div>
+        <div class="col-4">Foto</div>
+      </div>
+    </div>
+    <!-- Page 6 -->
     <!-- Page 7 -->
+    <h4 id="scrollspyHeading7">Contact</h4>
+    <div class="container-fluid text-center bg-black text-light" style="height: 100vh">
+      <div class="row align-items-start">
+        <div class="col-8">About</div>
+        <div class="col-4">Foto</div>
+      </div>
+    </div>
+  </div>
+  <!-- Page 7 -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
