@@ -1,25 +1,198 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Demo</title>
-    
-    <link href="bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <h1>Hello, world!</h1>
-    
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-link">Link</button>
-    
-    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+      body {
+        font-family: "Roboto Mono", monospace;
+      }
+    </style>
+    <!-- Navbar Start -->
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+      <a class="navbar-brand" href="/">Home</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading3">Certificate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading7">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="/Portfolio/"
+            role="button"
+            aria-expanded="false"
+            >Portfolio</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading4"
+                >Portfolio-Photografy</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading5"
+                >Portfolio-Design</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#scrollspyHeading6"
+                >Portfolio-3D</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+      tabindex="0"
+    >
+      <!-- Navbar End -->
+      <!-- Page 1 -->
+      <h4 id="scrollspyHeading1"></h4>
+      <div
+        class="container-fluid text-center align-items-center"
+        style="height: 100vh"
+      >
+        <div class="row text-start align-items-center" style="height: 80%">
+          <div class="col-8 border">
+            <h1>I,am All</h1>
+            <h4>
+              I create innovative web and visual solutions. As a Junior Front
+              End Engineer skilled in web development, I combine technical
+              expertise with experience in 3D, Design, and Video Editing.
+            </h4>
+          </div>
+          <div class="col-4 border">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKEJmysaq0MubY7ta3VEzh7r-Q1a98yUvjg&s"
+              alt=""
+            />
+          </div>
+          <div class="container text-center">
+            <div class="row border">
+              <div class="col-6 col-sm-6 border">Front End</div>
+              <div class="col-6 col-sm-6 border">VFX</div>
+
+              <!-- Force next columns to break to new line -->
+              <div class="w-100"></div>
+
+              <div class="col-6 col-sm-6s border">Photografy</div>
+              <div class="col-6 col-sm-6 border">3D</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Page 1 -->
+      <!-- Page 2 -->
+      <h4 id="scrollspyHeading2">Resume</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+      <!-- Page 2 -->
+      <!-- Page 3 -->
+      <h4 id="scrollspyHeading3">Certificate</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+      <!-- Page 3 -->
+      <!-- Page 4 -->
+      <h4 id="scrollspyHeading4">Portfolio-Photografy</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+      <!-- Page 4 -->
+      <!-- Page 5 -->
+      <h4 id="scrollspyHeading5">Portfolio-Design</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+      <!-- Page 5 -->
+      <!-- Page 6 -->
+      <h4 id="scrollspyHeading6">Portfolio-3D</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+      <!-- Page 6 -->
+      <!-- Page 7 -->
+      <h4 id="scrollspyHeading7">Contact</h4>
+      <div
+        class="container-fluid text-center bg-black text-light"
+        style="height: 100vh"
+      >
+        <div class="row align-items-start">
+          <div class="col-8">About</div>
+          <div class="col-4">Foto</div>
+        </div>
+      </div>
+    </div>
+    <!-- Page 7 -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
