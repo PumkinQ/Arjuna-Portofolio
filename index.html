@@ -25,7 +25,10 @@
       }
     </style>
     <!-- Navbar Start -->
-    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+    <nav
+      id="navbar-example2"
+      class="navbar bg-body-tertiary px-3 mb-3 navbar sticky-top bg-body-tertiary"
+    >
       <a class="navbar-brand" href="/">Home</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
@@ -36,9 +39,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#scrollspyHeading3">Certificate</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading7">Contact</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -68,6 +68,9 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading7">Contact</a>
+        </li>
       </ul>
     </nav>
     <div
@@ -85,33 +88,23 @@
         class="container-fluid text-center align-items-center"
         style="height: 100vh"
       >
-        <div class="row text-start align-items-center" style="height: 80%">
-          <div class="col-8 border">
+        <div class="row align-items-center container-fluid" style="height: 80%">
+          <div class="col-lg-7 col-2 border ms-5" style="text-align: left">
             <h1>I,am All</h1>
-            <h4>
-              I create innovative web and visual solutions. As a Junior Front
-              End Engineer skilled in web development, I combine technical
-              expertise with experience in 3D, Design, and Video Editing.
+            <h5>
+              I create innovative web and visual solutions. <br> As a Junior Front
+              End Engineer skilled in web development, <br> I combine technical
+              expertise with experience <br> in 3D, Design, and Video Editing.
             </h4>
           </div>
-          <div class="col-4 border">
+          <div class="col-3 border mx-auto p-2" style="height: auto">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKEJmysaq0MubY7ta3VEzh7r-Q1a98yUvjg&s"
-              alt=""
+              class="img-fluid"
+              alt="..."
             />
           </div>
-          <div class="container text-center">
-            <div class="row border">
-              <div class="col-6 col-sm-6 border">Front End</div>
-              <div class="col-6 col-sm-6 border">VFX</div>
-
-              <!-- Force next columns to break to new line -->
-              <div class="w-100"></div>
-
-              <div class="col-6 col-sm-6s border">Photografy</div>
-              <div class="col-6 col-sm-6 border">3D</div>
-            </div>
-          </div>
+          
         </div>
       </div>
       <!-- Page 1 -->
@@ -122,8 +115,74 @@
         style="height: 100vh"
       >
         <div class="row align-items-start">
-          <div class="col-8">About</div>
-          <div class="col-4">Foto</div>
+        <div class="container text-center d-flex">
+            <div class="row">
+              <div class="col-6 col-sm-6">
+                <div
+                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
+                  style="width: 18rem"
+                >
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Code</h5>
+                    <p class="card-text">
+                      5+ Finished Project <br />
+                      (Front End, Back End, And Game Dev)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6">
+                <div
+                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
+                  style="width: 18rem"
+                >
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Video Editing</h5>
+                    <p class="card-text">
+                      20+ Finished Project <br />
+                      (Premier Pro, Davinci Resolve, Capcut)
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Force next columns to break to new line -->
+              <div class="w-100"></div>
+
+              <div class="col-6 col-sm-6s">
+                <div
+                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
+                  style="width: 18rem"
+                >
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Photografy & Videografy</h5>
+                    <p class="card-text">
+                      15+ Finished Project <br />
+                      (Wedding, Traditional Event)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-6">
+                <div
+                  class="card container-fluid shadow p-3 mb-5 bg-body-tertiary rounded"
+                  style="width: 18rem"
+                >
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">3D & VFX</h5>
+                    <p class="card-text">
+                      40+ Finished Project <br />
+                      (Blender, Cinema4D, Sketchup, After Effect)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- Page 2 -->
